@@ -1,0 +1,40 @@
+/* add your CSS here */
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.border{
+border: 2px hidden;
+}
+.card {
+  width: 300px;
+  padding: 1em;
+  border: 2px groove grey;
+  box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  background-color: #8cf7c0;
+}
+
+.inner-card {
+  padding: 1em;
+  border: 2px inset #42bcf4;
+  box-shadow: 2px 2px 2px 2px rgba(0.2, 0.2, 0.2, 0.2);
+}
+
+.image {
+  padding-bottom: 1em;
+  width: 300px;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
